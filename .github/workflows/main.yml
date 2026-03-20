@@ -30,5 +30,3 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/duongphamminhtri-app:latest
-            # Nếu muốn thêm tag khác (ví dụ theo commit SHA hoặc version):
-            # ${{ secrets.DOCKERHUB_USERNAME }}/duongphamminhtri-app:${{ github.sha }}
