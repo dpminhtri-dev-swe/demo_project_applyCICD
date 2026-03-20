@@ -29,6 +29,6 @@ jobs:
           file: ./Dockerfile           # nếu Dockerfile nằm ở thư mục gốc, giữ nguyên
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/ten-image-cua-ban:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/duongphamminhtri-app:latest
             # Nếu muốn thêm tag khác (ví dụ theo commit SHA hoặc version):
-            # ${{ secrets.DOCKERHUB_USERNAME }}/ten-image-cua-ban:${{ github.sha }}
+            # ${{ secrets.DOCKERHUB_USERNAME }}/duongphamminhtri-app:${{ github.sha }}
